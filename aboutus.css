@@ -1,0 +1,97 @@
+ 
+.input{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        padding: 10px;
+      
+}
+input[type="text"] {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 5px 5px 5px #ccc;
+    outline-style: groove;
+    color: grey;
+    margin-top: 10px;
+  }
+
+  .images{
+    text-align: right;
+    float: right;
+    margin-top: 30px;
+    
+}
+img {
+  float: right;
+  display: block; 
+  margin-bottom: 10px; 
+  margin-top: 60px;
+  margin-right: 20px;
+  
+}
+
+  h1{
+    background: gray;
+    color: whitesmoke;
+  }
+  .image3{
+    text-align: right;
+    float: right;
+    margin-top: 15px;
+   
+
+  }
+  .border {
+    border: 5px solid gray;
+    padding: 20px;
+
+  }
+
+  
+  .main {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+    text-align: justify;
+  }
+  
+  footer{
+    background-color: gray;
+    padding: 50px;
+  }
+  .ul1{
+    color:white;
+    margin-top: 20px;
+  }
+  .ul2{
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+
+
+  }
+  .uls{
+    display: flex;
+  }
+  .ul3{
+    color: white;
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+  .box-footer {
+    padding: 40px;
+    margin-left: 80px;
+    background-color:black; 
+    color: white; /* sets the font color to black */
+    padding: 20px; /* adds some space around the content */
+    border: 1px solid #333; /* adds a border around the box */
+    border-radius: 5px; /* rounds the corners of the box */
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3); /* adds a drop shadow to the box */
+  }

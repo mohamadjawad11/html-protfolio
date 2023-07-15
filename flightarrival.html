@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>flight departure</title>
+        <link rel="stylesheet" type="text/css" href="navbar2.css">
+        <link rel="stylesheet" type="text/css" href="navbar.css">
+        <link rel="stylesheet" type="text/css" href="footer.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <style>
+          .flightinfo{
+              padding: 35px;
+              background: #626060;
+              color: aqua;
+          }
+        </style>
+        <style>
+            body{
+                background: linear-gradient(45deg,#d2001a,#7462ff,#f48e21,#23d5ab);
+            }
+               h1{
+                text-align: center;
+                margin-top: 10px;
+                text-shadow: 0 15px 10px rgba(0, 0, 0, 0.2);
+                margin-bottom: 3px;
+               }
+               table{
+                width: 88%;
+                background: #ffffff7c;
+                margin-left: 6%;
+                border-collapse: collapse;
+                margin-bottom: 10px;
+               }
+               thead{
+                background:linear-gradient(silver,transparent,silver);
+               }
+               table th,td{
+                padding-top: 20px;
+                padding-bottom: 20px;
+                padding-left: 45px;
+                padding-right: 45px;
+                text-align: center;
+                font-size: 18px;
+               }
+            td img{
+                width: 100px;
+                height: 55px;
+            }
+            tbody tr:nth-child(odd){
+                background-color: #ffffff5a;
+            }/*to make each row looks diiffernt from the one near it*/
+            tbody tr:nth-child(even){
+                background-color: #ffffff2b;
+            }
+            tbody tr:hover{
+                background-color: #0d78b648;
+            }/*to change the color of row when hovering it*/
+            .delayed{
+                padding: 7px 20px;
+                border-radius: 32px;
+                background:linear-gradient(100deg,red,transparent);
+                color: black;
+            }
+            .ontime{
+                padding: 7px 20px;
+                border-radius: 32px;
+                background:linear-gradient(100deg,green,transparent);
+                color: black;
+            }
+            .arrived{
+                padding: 7px 20px;
+                border-radius: 32px;
+                background:linear-gradient(100deg,white,transparent);
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+      <nav>
+        <div class="logo-container">
+          <img src="images/logo.png" class="logo">
+          <p>BEIRUT AirPort</p>
+        </div>
+        <ul>
+            <li><a href="home.html" class="home">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="onlinebooking.html">Online Booking</a></li>
+            <li class="dropdown" ><a href="#" class="flightinfo">Flight Info</a>
+              <ul class="menu">
+                <li><a href="flightdeparture.html">Flight Departure</a></li>
+                <li><a href="flightarrival.html">Flight Arrival</a></li>
+              </ul></li>
+            <li><a href="baggageservice.html">Baggage Service</a></li>
+            <li><a href="dutyfree.html">Duty Free</a></li>
+            <li><a href="contactus.html">Contact</a></li>
+            <li><a href="aboutus.html">About</a></li>
+        </ul>
+      </nav>
+        <div class="table">
+            <div class="tableheader">
+                <h1>FLIGHT ARRIVAL</h1>
+                <div class="tablebody">
+                </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Air Line</th>
+                                <th>Flight Number</th>
+                                <th>From</th>
+                                <th>Status</th>
+                                <th>Arrival</th>
+                                <th>Baggae Claim</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><img src="images/qatar.png"></td>
+                                <td>QR406</td>
+                                <td>Doha</td>
+                                <td><p class="arrived">Arrived</p></td>
+                                <td>06:00</td>
+                                <td>A15</td>
+                              </tr>
+                              <tr>
+                                <td><img src="images/pegasus.png"></td>
+                                <td>PC698</td>
+                                <td>Ankara</td>
+                                <td><p class="arrived">Arrived</p></td>
+                                <td>06:05</td>
+                                <td>A5</td>
+                              </tr>
+                              <tr>
+                                <td><img src="images/turkish.png"></td>
+                                <td>TK733</td>
+                                <td>Istanbul</td>
+                                <td><p class="ontime">OnTime</p></td>
+                                <td>06:05</td>
+                                <td>c26</td>
+                              </tr>
+                              <tr>
+                                <td><img src="images/emirates.png"></td>
+                                <td>EK799</td>
+                                <td>Dubai</td>
+                                <td><p class="arrived">Arrived</p></td>
+                                <td>06:10</td>
+                                <td>A16</td>
+                              </tr>
+                              <tr>
+                                  <td><img src="images/egyptair.png"></td>
+                                  <td>MS516</td>
+                                  <td>Cairo</td>
+                                  <td><p class="delayed">Delayed</p></td>
+                                  <td>09:00</td>
+                                  <td>B9</td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/cyprus.png"></td>
+                                  <td>CY689</td>
+                                  <td>Larnaca</td>
+                                  <td><p class="delayed">Delayed</p></td>
+                                  <td>11:00</td>
+                                  <td>A1</td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/ethiopian.png"></td>
+                                  <td>ET505</td>
+                                  <td>Addis Ababa</td>
+                                  <td><p class="ontime">OnTime</p></td>
+                                  <td>12:55</td>
+                                  <td>B7</td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/pegasus.png"></td>
+                                  <td>PC838</td>
+                                  <td>Istanbul</td>
+                                  <td><p class="ontime">OnTime</p></td>
+                                  <td>13:55</td>
+                                  <td>C4</td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/mea.png"></td>
+                                  <td>ME313</td>
+                                  <td>Frankfurt</td>
+                                  <td><p class="ontime">OnTime</p></td>
+                                  <td>14:15</td>
+                                  <td>C14</td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/jordanian.png"></td>
+                                  <td>RJ412</td>
+                                  <td>Amman</td>
+                                  <td><p class="delayed">Delayed</p></td>
+                                  <td>14:30</td>
+                                  <td>A11</td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/turkish.png"></td>
+                                  <td>TK311</td>
+                                  <td>Istanbul</td>
+                                  <td><p class="ontime">OnTime</p></td>
+                                  <td>16:00</td>
+                                  <td>B20</td>
+                                </tr>
+                                <tr>
+                                  <td><img src="images/mea.png"></td>
+                                  <td>ME300</td>
+                                  <td>London</td>
+                                  <td><p class="ontime">OnTime</p></td>
+                                  <td>17:30</td>
+                                  <td>C21</td>
+                                </tr>
+                                <tr>
+                                    <td><img src="images/british.png"></td>
+                                    <td>BA380</td>
+                                    <td>London</td>
+                                    <td><p class="ontime">OnTime</p></td>
+                                    <td>18:30</td>
+                                    <td>B10</td>
+                                  </tr>
+                                  <tr>
+                                    <td><img src="images/iranair.png"></td>
+                                    <td>IR569</td>
+                                    <td>Tehran</td>
+                                    <td><p class="ontime">OnTime</p></td>
+                                    <td>19:00</td>
+                                    <td>A2</td>
+                                  </tr>
+                                  <tr>
+                                    <td><img src="images/mea.png"></td>
+                                    <td>ME124</td>
+                                    <td>Doha</td>
+                                    <td><p class="delayed">Delayed</p></td>
+                                    <td>21:55</td>
+                                    <td>A4</td>
+                                  </tr>
+                                  <tr>
+                                    <td><img src="images/etihad.png"></td>
+                                    <td>EY945</td>
+                                    <td>Abu Dhabi</td>
+                                    <td><p class="ontime">OnTime</p></td>
+                                    <td>00:30</td>
+                                    <td>B19</td>
+                                  </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <footer>
+              <img src="images/baggageservicesicon.png">
+              <hr>
+          <div class="container">
+              <div class="row">
+                  <div class="column">
+                      <h4>Our Airport</h4>
+                      <ul>
+                          <li><a href="#">About Us</a></li>
+                          <li><a href="#">Our Services</a></li>
+                          <li><a href="#">Privacy Policy</a></li>
+                          <li><a href="#">Our Community</a></li>
+                      </ul>
+                  </div>
+                  <div class="column">
+                      <h4>Get Help</h4>
+                      <ul>
+                          <li><a href="#">Mail</a></li>
+                          <li><a href="#">Airport Guide</a></li>
+                          <li><a href="#">Language Help</a></li>
+                          <li><a href="#">payment options</a></li>
+                      </ul>
+                  </div>
+                  <div class="column">
+                      <h4>Online Duty Free</h4>
+                      <ul>
+                          <li><a href="#">Electronics</a></li>
+                          <li><a href="#">Fashion</a></li>
+                          <li><a href="#">Perfume</a></li>
+                          <li><a href="#">Market</a></li>
+                      </ul>
+                  </div>
+                  <div class="column">
+                      <h4>Follow</h4>
+                      <div class="socialmedia">
+                          <a href="#"><i class="fab fa-facebook-f"></i></a>
+                          <a href="#"><i class="fab fa-twitter"></i></a>
+                          <a href="#"><i class="fab fa-instagram"></i></a>
+                          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </footer>
+    </body>
+</html>

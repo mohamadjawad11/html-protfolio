@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>parking</title>
+        <link rel="stylesheet" type="text/css" href="navbar2.css">
+        <link rel="stylesheet" type="text/css" href="navbar.css">
+        <link rel="stylesheet" type="text/css" href="footer.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <style>
+            .services{
+                padding: 35px;
+                background: #626060;
+                color: aqua;
+            }
+                </style>
+        <style>
+            h1{
+                color:#000;
+                font-size: 45px;
+                padding-bottom:0;
+                text-shadow: 0 15px 10px rgba(0, 0, 0, 0.2);
+                text-align: center;
+                margin-top: 0;
+            }
+            .topimage{
+                width: 99%;
+                height: 18%;
+                border-radius: 10px;
+                margin-left: 0.5%;
+            }
+            .pp,.where,.adtxt{
+                font-size: 25px;
+                margin-left: 30px;
+            }
+            .bx{
+                font-size: 20px;
+                margin-left: 50px;
+            }
+            .images{
+                float: right;
+                display: inline;
+                margin-left: 5px;
+                width: 300px;
+                height: 140px;
+                margin-bottom: 3px;
+                border-radius: 10px;
+            }
+            .adtxt{
+                font-size: 50px;
+                letter-spacing: 2px;
+                color: red;
+                display: inline;
+            }
+            input{
+                background: #e2dbdb79;
+                border-color: red;
+                border-radius: 10px;
+                color:#000;
+                font-size: 16px;
+                letter-spacing: 1px;
+                z-index: 10;
+                padding-left: 2px;
+            }
+            button{
+                background: #e2dbdb79;
+                border-color: red;
+                border-radius: 10px;
+                cursor: pointer;
+                padding-left: 7px;
+                padding-right: 7px;
+            }
+            .where {
+                
+                color: red;
+                letter-spacing: 1px;
+               margin-left: 41.5%;
+            }
+            .in{
+               margin-left: 38%;
+            }
+            .special {
+                width: 50%;
+                margin-left: 25%;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <div class="logo-container">
+                <img src="images/logo.png" class="logo">
+            <p>BEIRUT AirPort</p>
+            </div>
+            <ul>
+                <li><a href="home.html" class="home">Home</a></li>
+                <li><a href="services.html" class="services">Services</a></li>
+                <li><a href="onlinebooking.html">Online Booking</a></li>
+                <li class="dropdown" ><a href="#">Flight Info</a>
+                    <ul class="menu">
+                      <li><a href="flightdeparture.html">Flight Departure</a></li>
+                      <li><a href="flightarrival.html">Flight Arrival</a></li>
+                    </ul></li>
+                <li><a href="baggageservice.html">Baggage Service</a></li>
+                <li><a href="dutyfree.html">Duty Free</a></li>
+                <li><a href="contactus.html">Contact</a></li>
+                <li><a href="aboutus.html">About</a></li>
+            </ul>
+          </nav>
+        <h1>PARKING SERVICES</h1>
+        <hr>
+        <br>
+        <img src="images/parking.jpeg" class="topimage">
+        <p class="pp">For passengers that want to park at Our Airport there are the following fees:</p>
+        <ul class="bx">
+            <li>Less Than 1 hour:<b>1.5$</b></li>
+            <li>From 1 to 2 hours:<b>2.75$</b></li>
+            <li>From 2 to 3 hours:<b>3.5$</b></li>
+            <li>Less than 1 day:<b>6$</b></li>
+            <li>One day (24 hours):<b>10$</b></li>
+        </ul>
+        <br>
+        <hr class="special">
+        <p class="where">where is my car?</p>
+        <div class="in">
+        <input type="text" required="none" placeholder="enter plate number">
+        <button type="submit">find my car</button>
+        </div>
+        <br>
+        <hr class="special">
+        <br>
+        <img src="images/carwash.jpg" class="images">
+        <p class="pp">Get your car washed while you are waiting at the airport<br><br>Contact us:<a href="#">70 643 417</a></p>
+        <p class="adtxt">SAVE TIME!</p>
+        <footer>
+            <img src="images/baggageservicesicon.png">
+            <hr>
+            <div class="row">
+                <div class="column">
+                    <h4>Our Airport</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Services</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Our Community</a></li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h4>Get Help</h4>
+                    <ul>
+                        <li><a href="#">Mail</a></li>
+                        <li><a href="#">Airport Guide</a></li>
+                        <li><a href="#">Language Help</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h4>Online Duty Free</h4>
+                    <ul>
+                        <li><a href="#">Electronics</a></li>
+                        <li><a href="#">Fashion</a></li>
+                        <li><a href="#">Perfume</a></li>
+                        <li><a href="#">Market</a></li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h4>Follow</h4>
+                    <div class="socialmedia">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+      </footer>
+    </body>
+</html>

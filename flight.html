@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flights</title>
+        <link rel="stylesheet" type="text/css" href="navbar2.css">
+        <link rel="stylesheet" type="text/css" href="navbar.css">
+        <link rel="stylesheet" type="text/css" href="footer.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <style>
+            .onlineservices{
+                padding: 35px;
+                background: #626060;
+                color: aqua;
+            }
+        </style>
+        <style>
+            body{
+                background:linear-gradient(35deg,gold,white,gold);
+            }
+            .box{
+                background: rgba(0, 255, 255, 0.355);
+                width: 63%;
+                height: 20%;
+                margin-left: 20%;
+                margin-top: 1%;
+                margin-bottom: 1%;
+                border-radius: 1%;
+            }
+            h2{
+                margin-left: 10px;
+            }
+            .box p{
+                margin-left: 25px;
+                font-size: 20px;
+            }
+            .city{
+                font-size: 40px;
+                margin-right: 5px;
+            }
+            .arrow{
+                font-size: 50px;
+                margin-left: 30px;
+            }
+            .duration{
+                background: rgba(255, 217, 0, 0.568);
+                padding-top: 5px;
+                padding-bottom: 5px;
+                padding-left: 15px;
+                padding-right: 15px;
+                border-radius: 20px;
+            }
+            .stop{
+                margin-left: 5px;
+                text-decoration: underline;
+                cursor: pointer;
+            }
+            .logo img{
+                width: 60px;
+                height: 34px;
+                margin-left: 20px;
+            }
+            .price{
+                margin-left: 80.5%;
+                font-size: 22px;
+            }
+            button{
+                margin-top: 10px;
+                margin-left: 80%;
+                padding-left: 5%;
+                padding-right: 5%;
+                padding-top: 0.7%;
+                padding-bottom: 0.7%;
+                background: rgba(255, 217, 0, 0.568);
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                font-size: 100%;
+                margin-bottom: 5px;
+            }
+            button:hover{
+                transform: scale(1.05);
+                transition: 0.4s;
+                background: rgba(220, 200, 0, 0.7);
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <div class="logo-container">
+                <img src="images/logo.png" class="logo">
+            <p>BEIRUT AirPort</p>
+            </div>
+            <ul>
+                <li><a href="home.html" class="home">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="onlinebooking.html" class="onlineservices">Online Booking</a></li>
+                <li class="dropdown" ><a href="#">Flight Info</a>
+                    <ul class="menu">
+                      <li><a href="flightdeparture.html">Flight Departure</a></li>
+                      <li><a href="flightarrival.html">Flight Arrival</a></li>
+                    </ul></li>
+                <li><a href="baggageservice.html">Baggage Service</a></li>
+                <li><a href="dutyfree.html">Duty Free</a></li>
+                <li><a href="contactus.html">Contact</a></li>
+                <li><a href="aboutus.html">About</a></li>
+            </ul>
+          </nav>
+          <div class="box">
+            <h2>Tue 23 May</h2>
+            <p><span class="city">23:30 Beirut</span>Beirut-Rafic Hariri International(BEY)<br><span class="arrow">&darr;</span>
+                <span class="duration">4h 40m</span><span class="stop" title="Direct">Direct</span><span class="logo"><img src="images/mea.png"></span><br>
+                <span class="city">03:10 Paris</span>Charles de Gaulle Airport(CDG)</p>
+            <h2>Wed 24 May</h2>
+            <p class="price"><b>Price: $318</b></p>
+            <button><b>Select</b></button>
+          </div>
+          <div class="box">
+            <h2>Fri 19 May</h2>
+            <p><span class="city">21:00 Beirut</span>Beirut-Rafic Hariri International(BEY)<br><span class="arrow">&darr;</span>
+                <span class="duration">3h 15m</span><span class="stop" title="Direct">Direct</span><span class="logo"><img src="images/emirates.png"></span><br>
+                <span class="city">01:15 Dubai</span>Dubai International(DXB)</p>
+            <h2>Sat 20 May</h2>
+            <p class="price"><b>Price: $301</b></p>
+            <button><b>Select</b></button>
+          </div>
+          <div class="box">
+            <h2>Sun 28 May</h2>
+            <p><span class="city">04:05 Beirut</span>Beirut-Rafic Hariri International(BEY)<br><span class="arrow">&darr;</span>
+                <span class="duration">1h 50m</span><span class="stop" title="Direct">Direct</span><span class="logo"><img src="images/turkish.png"></span><br>
+                <span class="city">05:55 Istanbul</span>Sabiha Gökçen International(SAW)</p>
+            <h2>Sun 28 May</h2>
+            <p class="price"><b>Price: $118</b></p>
+            <button><b>Select</b></button>
+          </div>
+          <div class="box">
+            <h2>Thu 25 May</h2>
+            <p><span class="city">20:20 Beirut</span>Beirut-Rafic Hariri International(BEY)<br><span class="arrow">&darr;</span>
+                <span class="duration">3h 35m</span><span class="stop" title="Direct">Direct</span><span class="logo"><img src="images/qatar.png"></span><br>
+                <span class="city">23:55 Doha</span>Hamad International(DOH)</p>
+            <h2>Thu 25 May</h2>
+            <p class="price"><b>Price: $229</b></p>
+            <button><b>Select</b></button>
+          </div>
+          <div class="box">
+            <h2>Thu 11 May</h2>
+            <p><span class="city">04:05 Beirut</span>Beirut-Rafic Hariri International(BEY)<br><span class="arrow">&darr;</span>
+                <span class="duration">4h 40m</span><span class="stop" title="3h layover Istanbul Sabiha Gökçen International(SAW)">1 Stop</span>
+                <span class="logo"><img src="images/pegasus.png"></span><br>
+                <span class="city">10:55 London</span>Heathrow(LHR)</p>
+            <h2>Thu 11 May</h2>
+            <p class="price"><b>Price: $529</b></p>
+            <button><b>Select</b></button>
+          </div>
+          <div class="box">
+            <h2>Wed 10 May</h2>
+            <p><span class="city">08:00 Beirut</span>Beirut-Rafic Hariri International(BEY)<br><span class="arrow">&darr;</span>
+                <span class="duration">16h 5m</span><span class="stop" title="3h 05m layover Amman Queen Alia International(AMM)">1 Stop</span>
+                <span class="logo"><img src="images/jordanian.png"></span><br>
+                <span class="city">17:05 New York</span>John F. Kennedy International(JFK)</p>
+            <h2>Wed 10 May</h2>
+            <p class="price"><b>Price: $1112</b></p>
+            <button><b>Select</b></button>
+          </div>
+          <div class="box">
+            <h2>Mon 8 May</h2>
+            <p><span class="city">15:15 Beirut</span>Beirut-Rafic Hariri International(BEY)<br><span class="arrow">&darr;</span>
+                <span class="duration">18h 55m</span><span class="stop" title="2h layover Doha Hamad International(DOH)">1 Stop</span>
+                <span class="logo"><img src="images/mea.png"><img src="images/qatar.png"></span><br>
+                <span class="city">17:10 Sydney</span>Sydney(SYD)</p>
+            <h2>Tue 9 May</h2>
+            <p class="price"><b>Price: $1992</b></p>
+            <button><b>Select</b></button>
+          </div>
+          <div class="box">
+            <h2>Sun 21 May</h2>
+            <p><span class="city">21:55 Beirut</span>Beirut-Rafic Hariri International(BEY)<br><span class="arrow">&darr;</span>
+                <span class="duration">15h 30m</span><span class="stop" title="2h 25m layover Istanbul Istanbul Airport(IST)">1 stop</span>
+                <span class="logo"><img src="images/turkish.png"></span><br>
+                <span class="city">19:25 Tokyo</span>Haneda(HND)</p>
+            <h2>Mon 22 May</h2>
+            <p class="price"><b>Price: $1314</b></p>
+            <button><b>Select</b></button>
+          </div>
+          <div class="box">
+            <h2>Wed 24 May</h2>
+            <p><span class="city">03:05 Beirut</span>Beirut-Rafic Hariri International(BEY)<br><span class="arrow">&darr;</span>
+                <span class="duration">4h 40m</span><span class="stop" title="45m layover Addis Ababa Addis Ababa Bole International(ADD)">1 Stop</span>
+                <span class="logo"><img src="images/ethiopian.png"></span><br>
+                <span class="city">13:45 Cape Town</span>Cape Town International(CPT)</p>
+            <h2>Wed 24 May</h2>
+            <p class="price"><b>Price: $909</b></p>
+            <button><b>Select</b></button>
+          </div>
+          <div class="box">
+            <h2>Sun 28 May</h2>
+            <p><span class="city">16:50 Beirut</span>Beirut-Rafic Hariri International(BEY)<br><span class="arrow">&darr;</span>
+                <span class="duration">1h 40m</span><span class="stop" title="Direct">Direct</span><span class="logo"><img src="images/mea.png"></span><br>
+                <span class="city">18:30 Najaf</span>Al Najaf International(NJF)</p>
+            <h2>Sun 28 May</h2>
+            <p class="price"><b>Price: $200</b></p>
+            <button><b>Select</b></button>
+          </div>
+          <footer>
+                <img src="images/baggageservicesicon.png">
+                <hr>
+                <div class="row">
+                    <div class="column">
+                        <h4>Our Airport</h4>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Our Services</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Our Community</a></li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <h4>Get Help</h4>
+                        <ul>
+                            <li><a href="#">Mail</a></li>
+                            <li><a href="#">Airport Guide</a></li>
+                            <li><a href="#">Language Help</a></li>
+                            <li><a href="#">payment options</a></li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <h4>Online Duty Free</h4>
+                        <ul>
+                            <li><a href="#">Electronics</a></li>
+                            <li><a href="#">Fashion</a></li>
+                            <li><a href="#">Perfume</a></li>
+                            <li><a href="#">Market</a></li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <h4>Follow</h4>
+                        <div class="socialmedia">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+          </footer>
+    </body>
+</html>

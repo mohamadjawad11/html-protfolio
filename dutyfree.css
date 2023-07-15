@@ -1,0 +1,95 @@
+.images{
+margin-left: 200px;
+width: auto;
+height: auto;
+margin-top: 50px;
+}
+.watches{
+    margin-left: 400px;
+  display: flex;
+}
+.logo-container{
+
+    margin-left: 50px;
+}
+footer{
+    background-color: bisque;
+    padding: 20px;
+    margin-top: 150px;
+  }
+  .ul1{
+    color:black;
+    margin-top: 20px;
+  }
+  .ul2{
+    color: black;
+    margin-top: 20px;
+    margin-left: 20px;
+
+
+  }
+  .uls{
+    display: flex;
+  }
+  .ul3{
+    color: black;
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+  .box-footer {
+    margin-left: 80px;
+    background-color:white; 
+    color: black; /* sets the font color to black */
+    padding: 20px; /* adds some space around the content */
+    border: 1px solid #333; /* adds a border around the box */
+    border-radius: 5px; /* rounds the corners of the box */
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3); /* adds a drop shadow to the box */
+  }
+  .search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    
+    font-size: 16px;
+    width: 400px;
+  }
+  
+  .btn1 {
+    padding: 10px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  
+  nav{
+    background-color: bisque;
+  }
+  
+  nav ul a{
+    color: black;
+
+  }
+  nav a:hover{
+    background: black;
+    color: aqua;
+    border-radius: 4px;
+}
+.menu{
+  display: none;
+  position: absolute;
+  background: white;
+  padding: 10px;
+  border-radius: 6px;
+ }
+ 
